@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+body {
+    margin: 0;
+    font-family: "Raleway", serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  }
+
+  .myAvtar {
+    text-align: center; /* Center the avatar horizontally */
+}
+
+.myAvtar img {
+    width: 100%; /* Make the image responsive */
+    height: 80%; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    border: 2px solid #1E3A8A; /* Optional: Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for effect */
+}
+
